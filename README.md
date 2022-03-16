@@ -6,4 +6,4 @@
 
 - [Link to the video](https://www.youtube.com/watch?v=a_7Z7C_JCyo)
 - [Link to John's channel](https://www.youtube.com/codingaddict)
-- [Link to freeCodeCamp's YouTube channel](https://www.youtube.com/channel/UC8butISFwT-Wl7EV0
+- [Link to freeCodeCamp's YouTube channel](https://www.youtube.com/channel/UC8butISFwT-Wl7EV0)
