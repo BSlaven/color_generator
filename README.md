@@ -1,6 +1,6 @@
 # Tours App
 
-## Simple app to show users in a form of a slider.
+## Simple app to enter a color and generate its lighter and darker variations.
 
 ### Inspiration for this app came from FreeCodeCamp's video about 15 react projects by John Smilga.
 
