@@ -1,3 +1,5 @@
+import classes from './ColorForm.module.css';
+
 const ColorForm = () => {
   return (
     <form>
