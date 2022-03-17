@@ -3,7 +3,11 @@ import './App.css'
 import ColorForm from './ColorForm/ColorForm';
 
 function App() {
-  const [count, setCount] = useState(0)
+  const [color, setColor] = useState('');
+
+  const submitColorHandler = e => {
+    
+  }
 
   return (
     <div className="App">

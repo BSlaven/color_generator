@@ -1,4 +1,4 @@
-# Tours App
+# Color Generator App
 
 ## Simple app to enter a color and generate its lighter and darker variations.
 
