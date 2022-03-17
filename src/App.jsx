@@ -5,13 +5,13 @@ import ColorForm from './ColorForm/ColorForm';
 function App() {
   const [color, setColor] = useState('');
 
-  const submitColorHandler = e => {
-    
+  const changeColor = newColor => {
+    setColor(newColor);
   }
 
   return (
     <div className="App">
-      <ColorForm />
+      <ColorForm changeColor={changeColor} />
     </div>
   )
 }
