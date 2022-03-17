@@ -1,10 +1,26 @@
+import { useState, useEffect } from 'react';
+
 import classes from './ColorForm.module.css';
 
-const ColorForm = () => {
+const ColorForm = ({ changeColor }) => {
+
+  const [ color, setColor ] = useState('');
+
+  const inputChangeHandler = e => {
+    const value = e.target.value;
+  }
+
+  const formSubmitHandler = e => {
+    e.preventDefault();
+  }
+  
   return (
-    <form>
-      <input type="text" />
-      <button>submit</button>
+    <form onSubmit={formSubmitHandler}>
+      <input 
+        type="text"
+        value={color || ''}
+        onChange={inputChangeHandler} />
+      <button className={classes.button}>submit</button>
     </form>
   )
 }

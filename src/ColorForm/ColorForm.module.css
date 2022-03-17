@@ -17,7 +17,7 @@ input {
   padding-left: 0.3rem;
 }
 
-button {
+.button {
   background: rgb(240, 236, 0);
   color: #222;
   font-size: 1.2rem;
