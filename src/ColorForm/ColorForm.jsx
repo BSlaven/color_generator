@@ -8,6 +8,8 @@ const ColorForm = ({ changeColor }) => {
 
   const inputChangeHandler = e => {
     const value = e.target.value;
+    console.log('this is the input value: ', value);
+    setColor(value);
   }
 
   const formSubmitHandler = e => {
