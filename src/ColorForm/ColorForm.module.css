@@ -27,3 +27,7 @@ input {
   border-radius: 3px;
   cursor: pointer;
 }
+
+.button:is(:focus, :hover) {
+  background:rgb(212, 209, 0)
+}
