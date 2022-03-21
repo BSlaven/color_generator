@@ -13,7 +13,8 @@ const ColorForm = ({ changeColor }) => {
 
   const formSubmitHandler = e => {
     e.preventDefault();
-    changeColor(value);
+    changeColor(color);
+    setColor('');
   }
   
   return (

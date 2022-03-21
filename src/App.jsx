@@ -1,9 +1,17 @@
-import { useState } from 'react'
+import { useState, useEffect } from 'react'
 import './App.css'
 import ColorForm from './ColorForm/ColorForm';
 
 function App() {
   const [color, setColor] = useState('');
+
+  useEffect(() => {
+    console.log(color);
+  }, [color]);
+
+  const generateArrayOfColors = base => {
+    
+  }
 
   const changeColor = newColor => {
     setColor(newColor);
