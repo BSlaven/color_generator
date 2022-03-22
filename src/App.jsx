@@ -3,7 +3,7 @@ import './App.css'
 import ColorForm from './ColorForm/ColorForm';
 
 function App() {
-  const [color, setColor] = useState('');
+  const [color, setColor] = useState('#00FF70');
 
   useEffect(() => {
     console.log(color);
