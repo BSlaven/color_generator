@@ -13,7 +13,7 @@ function App() {
 
   const generateArrayOfColors = base => {
     const result = new Values(base);
-    const colors = result.all(10);
+    const colors = result.all(10).map(item => item.hex);
     setAllColors(colors);
   }
 
@@ -26,9 +26,10 @@ function App() {
       <ColorForm changeColor={changeColor} />
       <section className="section">
         <h3 className='title'>Your colors</h3>
+        {allColors && allColors.map(item => <p style={{color: `#${item}`}}>Slaven</p>)}
       </section>
     </div>
   )
 }
 
-export default App
+export default App;
