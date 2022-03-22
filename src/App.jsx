@@ -20,6 +20,9 @@ function App() {
   return (
     <div className="App">
       <ColorForm changeColor={changeColor} />
+      <section className="section">
+        <h3 className='title'>Your colors</h3>
+      </section>
     </div>
   )
 }
