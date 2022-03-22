@@ -1,0 +1,10 @@
+.colorContainer {
+  padding: 1rem;
+  cursor: pointer;
+  border-radius: 3px;
+  margin: 0;
+}
+
+.colorParagraph {
+  margin-bottom: 0.2rem;
+}

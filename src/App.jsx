@@ -2,6 +2,7 @@ import { useState, useEffect } from 'react'
 import Values from 'values.js';
 import './App.css'
 import ColorForm from './ColorForm/ColorForm';
+import ColorCard from './ColorCard/ColorCard';
 
 function App() {
   const [ color, setColor ] = useState('#00FF70');
@@ -26,7 +27,7 @@ function App() {
       <ColorForm changeColor={changeColor} />
       <section className="section">
         <h3 className='title'>Your colors</h3>
-        {allColors && allColors.map(item => <p style={{color: `#${item}`}}>Slaven</p>)}
+        {allColors && allColors.map(item => <ColorCard color={item} key={item} /> )}
       </section>
     </div>
   )
