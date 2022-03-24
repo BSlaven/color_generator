@@ -7,7 +7,7 @@ const ColorCard = ({ color }) => {
   }
   
   return (
-    <div onClick={copyToClipboard}>
+    <div className={classes.card} onClick={copyToClipboard}>
       <p className={classes.colorParagraph}>{`#${color}`}</p>
       <div 
         style={{backgroundColor: `#${color}`}}
