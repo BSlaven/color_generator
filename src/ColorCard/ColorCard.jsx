@@ -1,6 +1,9 @@
+import { useState } from 'react';
 import classes from './ColorCard.module.css';
 
 const ColorCard = ({ color }) => {
+
+  const [ copied, setCopied ] = useState(false);
 
   const copyToClipboard = e => {
     navigator.clipboard.writeText(`#${color}`);
