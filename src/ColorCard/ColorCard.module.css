@@ -7,8 +7,25 @@
   cursor: pointer;
   border-radius: 3px;
   margin: 0;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  position: relative;
 }
 
 .colorParagraph {
   margin-bottom: 0.2rem;
+}
+
+.copy {
+  font-size: 0.7rem;
+  font-weight: bold;
+  position: absolute;
+  right: 0.5rem;
+  transform: translateX(110%);
+  transition: translate 200ms ease-out;
+}
+
+.copy.showCopy {
+  transform: translateX(0);
 }
