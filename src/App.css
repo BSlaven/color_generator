@@ -6,3 +6,10 @@ body {
   align-items: center;
   padding-top: 3rem;
 }
+
+.error {
+  display: inline-block;
+  color: rgb(201, 0, 0);
+  font-size: 0.8rem;
+  margin-top: 0.5rem;
+}
