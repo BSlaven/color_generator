@@ -7,6 +7,7 @@ import ColorCard from './ColorCard/ColorCard';
 function App() {
   const [ color, setColor ] = useState('#00FF70');
   const [ allColors, setAllColors ] = useState([]);
+  const [ error, setError ] = useState(false);
 
   useEffect(() => {
     generateArrayOfColors(color);
