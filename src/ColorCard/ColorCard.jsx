@@ -15,7 +15,7 @@ const ColorCard = ({ color }) => {
       <div 
         style={{backgroundColor: `#${color}`}}
         className={classes.colorContainer}>
-        <span className={classes.copy}>Copied to clipboard</span>
+        <span className={`${classes.copy} ${copied ? classes.showCopy : ''}`}>Copied to clipboard</span>
       </div>
     </div>
   )
