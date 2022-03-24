@@ -3,7 +3,7 @@ import classes from './ColorCard.module.css';
 const ColorCard = ({ color }) => {
 
   const copyToClipboard = e => {
-    navigator.clipboard.writeText(color);
+    navigator.clipboard.writeText(`#${color}`);
   }
   
   return (
