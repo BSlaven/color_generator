@@ -7,6 +7,10 @@ const ColorCard = ({ color }) => {
 
   const copyToClipboard = e => {
     navigator.clipboard.writeText(`#${color}`);
+    setCopied(true);
+    setTimeout(() => {
+      setCopied(false);
+    }, 1500)
   }
   
   return (

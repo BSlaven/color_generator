@@ -21,11 +21,12 @@
   font-size: 0.7rem;
   font-weight: bold;
   position: absolute;
+  z-index: -1;
   right: 0.5rem;
-  transform: translateX(110%);
-  transition: translate 200ms ease-out;
+  transform: translateX(0);
+  transition: transform 150ms ease-out;
 }
 
 .copy.showCopy {
-  transform: translateX(0);
+  transform: translateX(110%);
 }
