@@ -32,8 +32,8 @@ function App() {
     <div className="App">
       <ColorForm changeColor={changeColor} />
       {!error ? <span className='error'>Incorrect color value. Try again.</span> : null}
+      <h3 className='title'>Your colors</h3>
       <section className="section">
-        <h3 className='title'>Your colors</h3>
         {allColors && allColors.map(item => <ColorCard color={item} key={item} /> )}
       </section>
     </div>
