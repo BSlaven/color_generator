@@ -13,3 +13,13 @@ body {
   font-size: 0.8rem;
   margin-top: 0.5rem;
 }
+
+.title {
+  margin-top: 0;
+  font-size: 2rem;
+}
+
+.section {
+  margin-top: 2rem;
+  border: 1px solid red;
+}
