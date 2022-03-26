@@ -1,16 +1,19 @@
 .card {
   cursor: pointer;
+  /* border: 1px solid green; */
+  width: 6rem;
+  height: 6rem;
 }
 
 .colorContainer {
+  width: 4rem;
+  height: 4rem;
   padding: 1rem;
-  cursor: pointer;
   border-radius: 3px;
   margin: 0;
-  /* overflow: hidden; */
   display: flex;
   align-items: center;
-  position: relative;
+  justify-content: center;
 }
 
 .colorParagraph {
@@ -18,15 +21,16 @@
 }
 
 .copy {
+  max-width: 100%;
+  background-color: aliceblue;
+  color: #333;
   font-size: 0.7rem;
   font-weight: bold;
   position: absolute;
-  z-index: -1;
-  right: 0.5rem;
-  transform: translateX(0);
-  transition: transform 150ms ease-out;
+  transition: opacity 150ms ease-out;
+  opacity: 0;
 }
 
 .copy.showCopy {
-  transform: translateX(110%);
+  opacity: 1;
 }
